@@ -43,14 +43,11 @@ a:hover, a:active {
   clear: both;
 }
 
-@media screen and (max-width: 800px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-}
       
 body{
 	margin: 0;
+	height: 100vh;
+  	width: 100vw;
 	margin-bottom: 0px;
   	background-color: Gainsboro;
 }
@@ -70,5 +67,4 @@ p{
 	font-size: 18px;
 	color: #7FA9BE;
 }
-
 
