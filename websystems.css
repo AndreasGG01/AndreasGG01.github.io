@@ -1,0 +1,74 @@
+.header{
+	background-color:  #7FA9BE;
+	color: #262D35;
+  	text-align: center;
+  	padding: 30px;
+	font-family: Georgia; 
+	font-size: 45px;
+}
+.topMenu{
+	overflow: hidden;
+	background-color: #262D35;
+}
+
+.topMenu a{
+  		color: gainsboro;
+  		padding: 15px 3.5%;
+  		text-align: center;
+  		display: inline-block;
+		text-decoration: none;
+}
+
+a:hover, a:active {
+			background-color:  #7FA9BE;
+			color: #262D35;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+      
+body{
+	margin: 0;
+	margin-bottom: 0px;
+  	background-color: Gainsboro;
+}
+h1{
+  font-family: Georgia; font-size: 45px; color: #262D35;
+}
+
+p{
+    font-family: Georgia; font-size: 18px; color: #262D35;
+}
+
+.footer {
+  	background-color: #262D35;
+  	text-align: center;
+	padding: 30px;
+	font-family: Georgia; 
+	font-size: 18px;
+	color: #7FA9BE;
+}
+
+
