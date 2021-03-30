@@ -6,6 +6,7 @@
 	font-family: Georgia; 
 	font-size: 45px;
 }
+/* ---------------------------------------------------------------------------------------------- */
 .topMenu{
 	overflow: hidden;
 	background-color: #262D35;
@@ -18,12 +19,14 @@
   		display: inline-block;
 		text-decoration: none;
 }
+/* layout referenced from (W3Schools, 2021, https://www.w3schools.com/css/css_website_layout.asp) */
 
 a:hover, a:active {
 			background-color:  #7FA9BE;
 			color: #262D35;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
 .column {
   float: left;
   padding: 10px;
@@ -42,7 +45,7 @@ a:hover, a:active {
   display: table;
   clear: both;
 }
-
+/* layout referenced from (W3Schools, 2021, https://www.w3schools.com/css/css_website_layout.asp) */
       
 body{
 	margin: 0;
@@ -67,4 +70,6 @@ p{
 	font-size: 18px;
 	color: #7FA9BE;
 }
-
+img{
+	width: 300px
+}
