@@ -7,40 +7,40 @@
 	font-size: 45px;
 }
 /* ---------------------------------------------------------------------------------------------- */
-.topMenu{
-	overflow: hidden;
+.menu{
 	background-color: #262D35;
 }
-
-.topMenu a{
-  		color: gainsboro;
-  		padding: 15px 3.5%;
-  		text-align: center;
-  		display: inline-block;
-		text-decoration: none;
-}
 /* layout referenced from (W3Schools, 2021, https://www.w3schools.com/css/css_website_layout.asp) */
+
+a{
+  	color: gainsboro;
+  	padding: 15px 3.5%;
+  	text-align: center;
+  	display: inline-table;
+	text-decoration: none;
+}
 
 a:hover, a:active {
 			background-color:  #7FA9BE;
 			color: #262D35;
 }
 
-/* ---------------------------------------------------------------------------------------------- */
+
 .column {
   float: left;
   padding: 10px;
 }
 
-.column.side {
+.side.column {
   width: 25%;
 }
 
-.column.middle {
+.column.main {
   width: 50%;
 }
 
-.row:after {
+/* ---------------------------------------------------------------------------------------------- */
+.row:before {
   content: "";
   display: table;
   clear: both;
@@ -55,11 +55,19 @@ body{
   	background-color: Gainsboro;
 }
 h1{
-  font-family: Georgia; font-size: 45px; color: #262D35;
+  font-family: Georgia; 
+  font-size: 45px; 
+  color: #262D35;
 }
 
 p{
-    font-family: Georgia; font-size: 18px; color: #262D35;
+    font-family: Georgia; 
+	font-size: 18px; 
+	color: #262D35;
+}
+
+.pQuote:after{
+	content: " - Andreas GG, 2021";
 }
 
 .footer {
